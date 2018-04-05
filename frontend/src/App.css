@@ -1,0 +1,129 @@
+body {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.jumbotron {
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #f4f4f5;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.nav {
+    margin: auto;
+    padding-top: 20px;
+    width: fit-content;
+}
+
+.table {
+    margin: auto;
+}
+
+#gMap {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.middle-button {
+    margin: auto;
+    width: 20%;
+}
+
+label .red {
+    color: red;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    margin: 5px;
+    padding: 5px;
+}
+
+.card-body {
+    padding: 3px;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.btn-default {
+    border-color: #c8cac4;
+}
+
+.list-group-item.active {
+    color: #000;
+    background-color: #e7e7e7;
+    border-color: #e7e7e7;
+}
+
+.star {
+    display: inline-block;
+    width: 75px;
+    height: 14px;
+    margin: 0 1px;
+    background-size: 15px 14px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAABkklEQVR4Ac2Wu6oTQRzGf2JlZ+sFBbVRLMQXEJ9B0mgjgiEm+x8QtBC00FR5A5/B0kfQiIKNhcQmRDCSZGfgtOcU4Vw+SCCE3ZO9c37wwTD/y8fMsLNDUUKbSxJN4x0mNW9sDL3jK03y37gajENp2uEKTREiXgbHkaRxc8aOH2tjb3ynCWY9rq9NJW235qib2Hi9aSzFjlfUTTB+bhtrjjqJX3BDRklSrMg3+exEX3YpGH/SjBXL0kNe21v43BsHalKHvLEvD5IIPe57Y1KD6US9OY2/T7kYjM9VmaqXepKRc97xJhjLEoZL9VAv8jJ3PPSORV5T1aiWMvyLuOyNb1lNlauaqu7mQY4VD6r8945zrHhcjWmXe3nPWDVVrLafdiFIKbF+Fec7SvhUfi863JU0TjAfUYZZl9sJph+nLS6wQmPNbefNjTtltvnthuFeHPGIFBRTzsaT6F0Z41+rMxvO2lxjB8rRy1M1qi360ripay92fPjU4jwZUW5svFet73KLvCwiHgfjAQVRbWw84axxDHyajlb+vInhAAAAAElFTkSuQmCC);
+}
+
+.yellow {
+    color: #fed531
+}
+
+button {
+    margin: 4px;
+}
+
+.goy {
+    left: 20px
+}
+
+.sort {
+    left: 25px
+}
+
+
+@media (max-width:500px) {
+    body {
+        width: 94%;
+    }
+    form {
+        width: 90%;
+        padding-top: 10px;
+    }
+    .col-form-label {
+        padding-bottom: 0px;
+    }
+    .form-group {
+        margin-bottom: 3px;
+    }
+    .goy {
+        left: 0px;
+        margin: auto;
+        margin-bottom: 5px;
+        width: 90%;
+    }
+    .sort {
+        left: 0px;
+        margin: auto;
+        width: 90%
+    }
+
+}
