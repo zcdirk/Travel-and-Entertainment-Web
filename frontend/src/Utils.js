@@ -1,5 +1,5 @@
 const location_url = "http://ip-api.com/json";
-const host = "http://localhost:8081";
+const host = "http://zctae.us-east-1.elasticbeanstalk.com/";
 const search_url = host + "/search";
 const detail_url = host + "/detail";
 const yelp_url = host + "/yelp";
